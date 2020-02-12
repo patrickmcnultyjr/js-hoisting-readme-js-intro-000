@@ -24,12 +24,12 @@ function crazy() {
 function sayMyName() {
   // fix the code in here:
   var name = "Kristin";
-  var name = "Cricky";
+  
 
   sayMy();
 
   function sayMy() {
     console.log(name);
-
+  var name = "Cricky";
   }
 }
