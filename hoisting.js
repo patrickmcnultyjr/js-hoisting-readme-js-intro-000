@@ -10,13 +10,16 @@ var lyric = "maybe";
 
 function crazy() {
   // fix the code in here:
-var crazy = "hey!!!";
  thisIsCrazy();
 
   var thisIsCrazy = function (){
     console.log("hey!!!")
   }
+  function thisIsCrazy() {
+    console.log("hey!!!");
+  }
 }
+
 
 function sayMyName() {
   // fix the code in here:
